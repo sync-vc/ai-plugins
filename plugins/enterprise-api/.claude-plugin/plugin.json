@@ -1,0 +1,10 @@
+{
+  "name": "enterprise-api",
+  "description": "Build against the Sync.VC Enterprise API",
+  "author": {
+    "name": "Sync.VC",
+    "url": "https://sync.vc"
+  },
+  "homepage": "https://github.com/sync-vc/claude-plugins",
+  "repository": "https://github.com/sync-vc/claude-plugins"
+}

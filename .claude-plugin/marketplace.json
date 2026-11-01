@@ -1,0 +1,15 @@
+{
+  "name": "sync-vc",
+  "description": "Claude Code plugins for building on the Sync.VC API",
+  "owner": {
+    "name": "Sync.VC",
+    "url": "https://sync.vc"
+  },
+  "plugins": [
+    {
+      "name": "enterprise-api",
+      "source": "./plugins/enterprise-api",
+      "description": "Build against the Sync.VC Enterprise API"
+    }
+  ]
+}
