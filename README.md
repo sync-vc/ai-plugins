@@ -1,25 +1,25 @@
-# Sync.VC Claude Code plugins
+# Sync.VC AI plugins
 
-A [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces) for building on the Sync.VC API.
+Plugins for building on the Sync.VC Enterprise API.
 
 | Plugin | What it does |
 | --- | --- |
-| `enterprise-api` | Build against the Sync.VC Enterprise API |
+| `enterprise-api` | Teaches Claude to get a token, call the API and verify webhooks |
 
 ## Install
 
-In a Claude Code session:
+In Claude Code:
 
 ```
-/plugin marketplace add sync-vc/claude-plugins
+/plugin marketplace add sync-vc/ai-plugins
 /plugin install enterprise-api@sync-vc
 ```
 
 Or from your shell:
 
 ```bash
-claude plugin marketplace add sync-vc/claude-plugins
+claude plugin marketplace add sync-vc/ai-plugins
 claude plugin install enterprise-api@sync-vc
 ```
 
-To pick up later changes, run `/plugin marketplace update sync-vc`, or turn on auto-update for the marketplace under **Marketplaces** in `/plugin`.
+To update, run `/plugin marketplace update sync-vc`.
